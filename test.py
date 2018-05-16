@@ -3,17 +3,17 @@
 
 
 
-# re_string = raw_input("1.(A)輸入字串:")
-# print re_string[::-1]
+re_string = raw_input("1.(A)輸入字串:")
+print re_string[::-1]
 
-# re_words_string = raw_input("2.(B)輸入句子:")
+re_words_string = raw_input("2.(B)輸入句子:")
 
-# string_list = re_words_string.split()
-# output = ""
-# for i in string_list:
-# 	re_word = i[::-1]
-# 	output = output+ re_word + " "
-# print output.strip()
+string_list = re_words_string.split()
+output = ""
+for i in string_list:
+	re_word = i[::-1]
+	output = output+ re_word + " "
+print output.strip()
 
 
 num  = int(input("2.輸入數字:"))
